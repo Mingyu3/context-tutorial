@@ -21,8 +21,7 @@ const ColorProvider = ({ children }) => {
 	);
 };
 //const ColorConsumer = ColorContext.Consumer;
-const { Consumer: ColorConsumer } = ColorContext;
 
-export { ColorProvider, ColorConsumer };
+export { ColorProvider };
 
 export default ColorContext;
